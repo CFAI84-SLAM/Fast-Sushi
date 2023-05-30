@@ -69,7 +69,6 @@ namespace Fast_Sushi_2
                 {
                     //on stocke l'id de l'utilisateur qui vient de se connecter dans une variable globale
                     GlobalValues.UtilisateurId = utilisateurid;
-                    MessageBox.Show(GlobalValues.UtilisateurId.ToString());
                     //créer une nouvelle instance de la fenêtre de destination
                     Accueil accederAccueil = new Accueil();
 

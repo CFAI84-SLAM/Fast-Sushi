@@ -51,6 +51,8 @@ namespace Fast_Sushi_2
                 return string.Empty;//Retourne chaîne vide si aucune info trouvée
             }
 
+            MessageBox.Show(RecupInfos(utilisateurId));
+
             Utilisateur.Text = "Vous êtes connectés en tant que : "+RecupInfos(utilisateurId);
         }
 
