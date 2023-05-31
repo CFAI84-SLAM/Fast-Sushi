@@ -19,7 +19,7 @@ namespace Fast_Sushi_2
             InitializeComponent();
 
             //Créer une instance de la classe DataAccess avec nos informations de connexion à la base de données
-            //db = new DataAccess("192.168.3.30", "slam3", "slam3", "_v6z7DAvWx");
+            db = new DataAccess("192.168.3.30", "slam3", "slam3", "_v6z7DAvWx");
 
             //On stocke l'id de l'utilisateur connecté
             int utilisateurId = GlobalValues.UtilisateurId;
@@ -53,7 +53,7 @@ namespace Fast_Sushi_2
 
             MessageBox.Show(RecupInfos(utilisateurId));
 
-            Utilisateur.Text = "Vous êtes connectés en tant que : "+RecupInfos(utilisateurId);
+            Utilisateur.Text = "Vous êtes connectés en tant que : " + RecupInfos(utilisateurId);
         }
 
         private void Accueil_Load(object sender, EventArgs e)
@@ -62,6 +62,21 @@ namespace Fast_Sushi_2
         }
 
         private void Utilisateur_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
         {
 
         }

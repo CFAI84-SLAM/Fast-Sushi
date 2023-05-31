@@ -39,36 +39,39 @@
             // 
             button1.Location = new Point(12, 415);
             button1.Name = "button1";
-            button1.Size = new Size(167, 23);
+            button1.Size = new Size(148, 23);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Liste Clients";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(248, 332);
+            button2.Location = new Point(166, 415);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(195, 23);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "Historique des commandes";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(387, 348);
+            button3.Location = new Point(367, 415);
             button3.Name = "button3";
-            button3.Size = new Size(75, 23);
+            button3.Size = new Size(110, 23);
             button3.TabIndex = 2;
-            button3.Text = "button3";
+            button3.Text = "Gérer les menus";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
-            button4.Location = new Point(523, 313);
+            button4.Location = new Point(683, 415);
             button4.Name = "button4";
-            button4.Size = new Size(75, 23);
+            button4.Size = new Size(105, 23);
             button4.TabIndex = 3;
-            button4.Text = "button4";
+            button4.Text = "Déconnexion";
             button4.UseVisualStyleBackColor = true;
             // 
             // Utilisateur
@@ -76,10 +79,10 @@
             Utilisateur.BackColor = SystemColors.ButtonFace;
             Utilisateur.BorderStyle = BorderStyle.FixedSingle;
             Utilisateur.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Utilisateur.Location = new Point(125, 99);
+            Utilisateur.Location = new Point(12, 122);
             Utilisateur.Name = "Utilisateur";
             Utilisateur.ReadOnly = true;
-            Utilisateur.Size = new Size(557, 43);
+            Utilisateur.Size = new Size(776, 43);
             Utilisateur.TabIndex = 7;
             Utilisateur.TextAlign = HorizontalAlignment.Center;
             Utilisateur.TextChanged += Utilisateur_TextChanged;
